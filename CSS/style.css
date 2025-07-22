@@ -32,6 +32,7 @@ body {
   background-color: var(--white);
   padding: 1rem;
   border-radius: 1rem;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.1);
 }
 
 .qr-title {
@@ -42,7 +43,7 @@ body {
 
 .qr-text {
   font-size: var(--font-size);
-  color: var(--state-500);
+  color: var(--slate-500);
   font-weight: var(--font-weight-normal);
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
